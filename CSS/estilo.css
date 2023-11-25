@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: seashell;
+    font-family: Arial;
+    font-size: 1em;
+
+}
+
+
+/* Layout  */
+
+#cabecalho {
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-principal{
+    width: 920px;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+
+#area-post {
+    width: 660px;
+    float: left;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+#rodape {
+    clear: both;
+    padding: 15px;
+    background: #1d1d1d;
+    text-align: center;
+    color: white;
+}
+
+#area-logo, #area-menu {
+    padding: 10px;
+    font-weight: bold;
+}
+/* Fim-Layout  */
+
+/* INICIO Formatação dos Menu  */
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #f7b600;
+}
+
+a:hover{
+    color: #050505;
+    text-decoration: underline;
+}
+
+#cabecalho a:link, #cabecalho a:visited {
+    padding: 8px 15px;
+    color: #fff;
+}
+
+#cabecalho a:hover{
+    color: #f7b600;
+    background: #fff;
+    text-decoration: none;
+}
+
+.conteudo-lateral {
+    padding: 10px;
+    margin-bottom: 10px;
+    background: white;
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+
+/* FIM Formatação dos Menu  */
+
+/***** Formatação GERAL  *****/
+
+ol {
+    list-style: none;
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 2px solid #131313;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+h2{
+    color: #f7b600;
+
+}
+
+h3{
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+
+}
